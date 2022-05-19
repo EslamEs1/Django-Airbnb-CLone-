@@ -28,9 +28,11 @@
 					<h3 class="heading mb-4">Find City</h3>
 					<form action="#">
 						{% bootstrap_form filter.form %}
-					   {% buttons %}
-						   <button type="submit" class="btn btn-primary py-3">Search</button>
-					   {% endbuttons %}
+							{% buttons %}
+							<div class="form-group">
+								<input type="submit" value="Search" class="btn btn-primary py-3 px-5">
+							</div>
+							{% endbuttons %}
 					</form>
 				</div>
 				
